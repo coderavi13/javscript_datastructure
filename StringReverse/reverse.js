@@ -18,3 +18,5 @@ console.log(revStr2);
 const str3='string_3';
  const revStr3 = str3.split('').reduce((revStr,ch)=> ch + revStr)
 console.log(revStr3)
+
+
