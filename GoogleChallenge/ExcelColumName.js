@@ -13,7 +13,7 @@ zz 676 + 26 = 702
 703 = AAA */
 
 function findExcelColumnName(n) {
-    console.log(n);
+    console.log(n);`qe54aszdc4se    dwcqxzZ`
     
     let cellName ='';
     while (n > 0) {
@@ -23,7 +23,7 @@ function findExcelColumnName(n) {
             n = parseInt(n / 26) -1
             console.log("Inside",n)
         } else {
-            const ch = String.fromCharCode(rem - 1 + 'A'.charCodeAt(0))
+            const ch = String.fromCharCode(rem - 1 + 'A'.charCodeAt(0))   
             cellName = cellName + ch;
             n = parseInt(n / 26) 
         }
