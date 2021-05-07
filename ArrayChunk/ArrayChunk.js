@@ -22,7 +22,7 @@ for (let value of arr) {
 
 chunkArr.push(chunk);
 
-console.log("Chnunk arr", chunkArr);
+console.log("Chnunk array", chunkArr);
 
 
 //Solution 2
