@@ -1,6 +1,6 @@
 
 // Solution 1
-const str1 = 'abccba'
+const str1 = 'abcjhcba'
 
 const rev = str1.split('').reverse().join('');
 
@@ -16,6 +16,7 @@ for(let i=0; i <= chArr.length/2; i++,k--)
 {
 if(chArr[i] != chArr[k]){
     flag= false;
+    break;
 }
 
 }
