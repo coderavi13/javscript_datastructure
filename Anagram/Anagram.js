@@ -1,3 +1,4 @@
+//Anagram problem
 const str = 'Hi There...!!!123';
 
 const a =str.replace(/[a-z A-Z 0-9]/g,'')
